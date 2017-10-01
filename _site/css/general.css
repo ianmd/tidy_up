@@ -1072,14 +1072,13 @@ color: #ECEBEB;
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		.intro-header {
-			height: 100%;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			color: #f8f8f8;
-		    background-image: url(../img/intro/intro6.jpg) no-repeat center center; 
-			background-size: cover;
-			text-align: center;
-			background-color: #34495e;
+			background-repeat:no-repeat;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;
+            background-position:center;
+            background-image: url(../img/intro/intro6.jpg) no-repeat center center; 
 		}
 		
 		h1, .h1 {
